@@ -30,7 +30,7 @@ class Master{
 
     //Create the api-rest.  
     apiServer(this)
-      .then((app)  => console.log('Api - rest ok'))
+      .then((app)  => console.log('(!) Server runnig OK'))
       .catch((err) => console.log(err));
 
   }

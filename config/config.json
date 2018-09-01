@@ -6,5 +6,10 @@
   "workers" : {
     "number"    : 4,
     "planifier" : "random"
+  },
+  "library":{
+  	"anticaptcha":{
+  		"key":"6c3a0f455559f969130003ddb74f4a3b"
+  	}
   }
 }

@@ -8,6 +8,8 @@ const messages = require('../../processor/manager/messages.js');
 router.post('/img',(req,res)=>{
 
   let master = global.master;
+
+  console.log('> Image base64 decode request');
   
   //Send to the worker the message and payload.  
   master.sendToWorker(res,messages.baseMsg('anticaptcha-img',req.body));

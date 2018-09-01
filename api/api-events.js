@@ -21,7 +21,7 @@ const onError = (err)=>{
 const onListen = ()=>{
 
   //Logeo arranque del server.
-  console.log('Restaurant API');
+  console.log('Anticaptcha API - Platform');
   console.log('> Listenig in ip: '+config.server.ip+':'+config.server.port);
   console.log('> Process Id:',processObj.pid);
   console.log('');
