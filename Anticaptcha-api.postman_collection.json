@@ -3,7 +3,8 @@
 	"name": "Anticaptcha-api",
 	"description": "",
 	"order": [
-		"604c64da-8441-cc09-1dd9-d7dd76e4739c"
+		"604c64da-8441-cc09-1dd9-d7dd76e4739c",
+		"93148233-5cb0-afe8-cc76-68006f63371e"
 	],
 	"folders": [],
 	"folders_order": [],
@@ -39,7 +40,7 @@
 				}
 			],
 			"dataMode": "urlencoded",
-			"name": "http://127.0.0.1:9080/anticaptcha/img/",
+			"name": "Image captcha",
 			"description": "",
 			"descriptionFormat": "html",
 			"time": 1535836933495,
@@ -48,6 +49,49 @@
 			"tests": null,
 			"currentHelper": "normal",
 			"helperAttributes": {}
+		},
+		{
+			"id": "93148233-5cb0-afe8-cc76-68006f63371e",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://127.0.0.1:9080/anticaptcha/recaptcha/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "url",
+					"value": "http://http.myjino.ru/recaptcha/test-get.php",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "key",
+					"value": "6Lc_aCMTAAAAABx7u2W0WPXnVbI_v6ZdbM6rYf16",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "urlencoded",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1535949197642,
+			"name": "Recaptcha",
+			"description": "",
+			"collectionId": "265de9d1-4045-5311-efd5-c2992af61cd7",
+			"responses": []
 		}
 	]
 }

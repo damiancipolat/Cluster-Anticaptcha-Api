@@ -37,6 +37,16 @@ class Worker{
 
     }
 
+    //Process recaptacha reqeuest.
+    if (msg.type=='anticaptcha-recaptcha'){
+
+      //Handle async.
+      anticaptcha.Recaptcha(msg.payload)
+        .then((result) => process.send(lib.toMaster(msg.id,'response',result)))
+        .catch((err)   => process.send(lib.toMaster(msg.id,'response-error',err)));
+
+    }    
+
   }  
 
 }
