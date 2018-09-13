@@ -38,4 +38,6 @@ I have used one proxy from this website: https://free-proxy-list.net/anonymous-p
   	}
   }
 }
+
+#workers.number is the number of worker that will be created when the server start.
 ```
