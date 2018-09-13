@@ -1,4 +1,4 @@
-# Anticatpcha Api platform
+# Anticaptcha Api platform
 This project is an Api Rest platform to use the https://anti-captcha.com services.
 
 ![N|Solid](https://github.com/damiancipolat/Cluster-Anticaptcha-Api/blob/master/doc/anticaptcha_hero.png?raw=true)
