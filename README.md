@@ -17,7 +17,8 @@ Actually, there are only two endpoints:
 The most important feature is that the server uses the Node.js 'cluster module', to use in each anticaptcha request into one worker process.
 
 ### Configuration:
-To get a proxy/port url you can get one from internet. I have used one proxy from this website: https://free-proxy-list.net/anonymous-proxy.html, and you can check wich proxy is online use this tool: http://www.checker.freeproxy.ru/checker/
+To get a proxy/port url you can get one from internet.
+I have used one proxy from this website: https://free-proxy-list.net/anonymous-proxy.html, and you can check wich proxy is online use this tool: http://www.checker.freeproxy.ru/checker/
 
 ```sh
 {
