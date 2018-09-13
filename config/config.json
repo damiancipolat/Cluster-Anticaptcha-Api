@@ -9,7 +9,7 @@
   },
   "library":{
   	"anticaptcha":{
-  		"key"       : "6c3a0f455559f969130003ddb74f4a3b",
+  		"key"       : "",
       "proxyUrl"  : "179.185.199.195",
       "proxyPort" : 8080
   	}
