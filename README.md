@@ -3,7 +3,6 @@ This project is an Api Rest platform to use the https://anti-captcha.com service
 
 Actually, there are only two endpoints:
 - **Image captcha solver**: 
-
   Receive as POST body parameter a base64 coded image and return the captcha text.
 
 - **Recaptcha solver**: 
