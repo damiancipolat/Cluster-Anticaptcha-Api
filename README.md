@@ -39,7 +39,11 @@ I have used one proxy from this website: https://free-proxy-list.net/anonymous-p
   }
 }
 ```
-**workers.number**: is the number of worker that will be created when the server start.
+**workers.number**: 
 
-**workers.planifier**: don't change this value is the planifier algorithm that use the master process to delegate each request to the workers.
+Is the number of worker that will be created when the server start.
+
+**workers.planifier**: 
+
+Don't change this value is the planifier algorithm that use the master process to delegate each request to the workers.
 
